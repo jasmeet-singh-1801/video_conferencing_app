@@ -81,7 +81,7 @@ Make sure you have the following installed on your machine:
 
 ```bash
 git clone https://github.com/jasmeet-singh-1801/video_conferencing_app
-cd zoom-clone
+cd video_conferencing_app
 ```
 
 **Installation**
