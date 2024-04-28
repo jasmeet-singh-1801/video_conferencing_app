@@ -120,7 +120,8 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 ## <a name="snippets">🕸️ Screenshot</a>
 **Sign-Up and Sign-In Page**
-![SignUp](C:\Users\Jasmeet singh\OneDrive\Desktop\Project\major_video_conferencing_app\Screenshots\signup page.png)
+
+![SignUp](./Screenshots/signup%20page.png)
 
 
 
