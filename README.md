@@ -121,8 +121,10 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 ## <a name="snippets">🕸️ Screenshot</a>
 **Sign-Up and Sign-In Page**
 
-<img src="./Screenshots/signup%20page.png" alt="SignUp" width="400">
-<img src="./Screenshots/Signin%20page.png" alt="SignIn" width="400">
+<div style="display: flex; flex-direction: row;">
+  <img src="./Screenshots/signup%20page.png" alt="SignUp" width="400">
+  <img src="./Screenshots/Signin%20page.png" alt="SignIn" width="400">
+</div>
 
 **Home Page**
 
@@ -145,12 +147,12 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 <img src="./Screenshots/Personal%20Room.png" alt="PersonalMeeting" width="400">
 
 **Extra Pages**
-
-<img src="./Screenshots/CreatingMeeting.png" alt="CreateMeeting" width="400">
-<img src="./Screenshots/JoinMeeting.png" alt="JoinMeeting" width="400">
-<img src="./Screenshots/MeeingStartuproom.png" alt="MeetingStartupRoom" width="400">
-<img src="./Screenshots/MeetingRoom.png" alt="MeetingRoom" width="400">
-
+<div style="display: flex; flex-direction: row;">
+  <img src="./Screenshots/CreatingMeeting.png" alt="CreateMeeting" width="400">
+  <img src="./Screenshots/JoinMeeting.png" alt="JoinMeeting" width="400">
+  <img src="./Screenshots/MeeingStartuproom.png" alt="MeetingStartupRoom" width="400">
+  <img src="./Screenshots/MeetingRoom.png" alt="MeetingRoom" width="400">
+</div>
 
 
 
