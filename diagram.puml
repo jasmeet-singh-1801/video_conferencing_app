@@ -1,0 +1,42 @@
+@startuml diagram
+actor Developer as D
+actor User as U
+
+rectangle {
+    rectangle "Developer Capabilities" {
+        usecase BuildApp as "Build video conferencing app"
+        usecase CustomizeApp as "Customize app structure"
+        usecase ImplementFeatures as "Implement app features"
+        usecase IntegrateTools as "Integrate third-party tools"
+        usecase ImproveApp as "Iterate on feedback"
+    }
+
+    rectangle "User Capabilities" {
+        usecase UseApp as "Use the app"
+        usecase ParticipateMeetings as "Participate in meetings"
+        usecase ControlSettings as "Control video/audio settings"
+        usecase ProvideFeedback as "Provide feedback"
+    }
+
+}
+
+D -down-> BuildApp
+D -down-> CustomizeApp
+D -down-> ImplementFeatures
+D -down-> IntegrateTools
+D -down-> ImproveApp
+
+U -up-> UseApp
+U -up-> ParticipateMeetings
+U -up-> ControlSettings
+U -up-> ProvideFeedback
+
+BuildApp ..> UseApp : enables
+CustomizeApp ..> UseApp : enhances
+ImplementFeatures ..> UseApp : enables
+IntegrateTools ..> UseApp : supports
+ImproveApp ..> UseApp : improves
+ProvideFeedback ..> ImproveApp : triggers
+
+
+@enduml

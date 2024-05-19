@@ -154,6 +154,10 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
   <img src="./Screenshots/MeetingRoom.png" alt="MeetingRoom" width="400">
 </div>
 
+**Use Case Diagram**
+
+<img src="./Screenshots/Use case.png" alt="UseCase Diagram" width="400">
+
 
 
 ## <a name="links">🔗 Links</a>
